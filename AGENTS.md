@@ -4,11 +4,15 @@
 - **项目名称**：爱心树 · 恋爱时光纪念馆
 - **独立二级域名**：`https://love.21212121.xyz`
 - **技术栈**：HTML5 Canvas / Jscex / jQuery / CSS3
+- **静态资产 CDN 加速**：
+  - 前端依赖库（jQuery、Jscex 体系全套脚本与样式）已托管至又拍云 CDN：`https://tc1.21212121.xyz/asite/assets/vendor/love_tree/`。
+  - 背景音频大文件（`520.mp3`，2.84MB）已迁移至又拍云对象存储：`https://tc1.21212121.xyz/asite/assets/audio/520.mp3`，杜绝播放器占用腾讯云服务器出网带宽。
 - **生产服务器根目录**：`/www/wwwroot/love.21212121.xyz/`
 - **自动化部署**：通过 GitHub Actions 联动，代码提交至 `main` 分支后自动同步至生产环境。
 
 ## 2. 核心架构与功能说明
 HTML5 Canvas 动态绽放爱心树与恋爱相伴时光计时器（自 2019-05-20 起），支持手机端动态缩放与触控交互。
+左上角集成统一高质感半透明玻璃态品牌胶囊导航（`xb-brand-pill-container`），提供指向个人主博客（`https://21212121.xyz`）与站群全景导航（`https://a.21212121.xyz`）的无缝直达能力。
 
 ## 3. 规范与维护约定
 - **单一规则源**：遵循本 `AGENTS.md`，严禁新增冗余规则文件。
