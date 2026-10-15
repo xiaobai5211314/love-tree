@@ -5,8 +5,8 @@
 - **独立二级域名**：`https://love.21212121.xyz`
 - **技术栈**：HTML5 Canvas / Jscex / jQuery / CSS3
 - **静态资产 CDN 加速**：
-  - 前端依赖库（jQuery、Jscex 体系全套脚本与样式）已托管至又拍云 CDN：`https://tc1.21212121.xyz/asite/assets/vendor/love_tree/`。
-  - 背景音频大文件（`520.mp3`，2.84MB）已迁移至又拍云对象存储：`https://tc1.21212121.xyz/asite/assets/audio/520.mp3`，杜绝播放器占用腾讯云服务器出网带宽。
+  - 前端依赖库（jQuery、Jscex 体系全套脚本与样式）已托管至又拍云 CDN：`https://guzhicdn.21212121.xyz/asite/assets/vendor/love_tree/`。
+  - 背景音频大文件（`520.mp3`，2.84MB）已迁移至又拍云对象存储：`https://guzhicdn.21212121.xyz/asite/assets/audio/520.mp3`，杜绝播放器占用腾讯云服务器出网带宽。
 - **生产服务器根目录**：`/www/wwwroot/love.21212121.xyz/`
 - **自动化部署**：通过 GitHub Actions 联动，代码提交至 `main` 分支后自动同步至生产环境。
 
