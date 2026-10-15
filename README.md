@@ -16,7 +16,7 @@
 - **又拍云 CDN 加速**：
   - 核心脚本库（jQuery, Jscex 体系）全部托管于又拍云存储：`https://tc1.21212121.xyz/asite/assets/vendor/love_tree/`。
   - 背景音乐（`520.mp3`，2.84MB）全量迁移至又拍云 CDN：`https://tc1.21212121.xyz/asite/assets/audio/520.mp3`，极大提升移动端首屏秒开率。
-- **站群互联**：界面左上角集成高质感品牌胶囊导航（`xb-brand-pill-container`），直达岁月静好博客主站（`https://21212121.xyz`）与全景导航站（`https://a.21212121.xyz`）。
+- **站群互联**：界面左上角集成高质感品牌胶囊导航（`xb-brand-pill-container`），直达岁月静好博客主站（`https://21212121.xyz`）与全景导航站（`https://nav.21212121.xyz`）。
 
 ## 🚀 自动部署与 CI/CD
 本项目已配置 GitHub Actions 自动化持续集成：
